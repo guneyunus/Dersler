@@ -102,7 +102,7 @@ namespace Day_2.OOP
             return "Url'ye ulasamadım.";
         }
     }
-    //polimorfizm
+    //polimorfizm --method düzeyinde
     public class BingTanslate : BaseTranslate
     {
         public string ErrorHandler { get; set; }
