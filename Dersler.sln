@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day-2", "Day-2\Day-2.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Göker", "Göker", "{2AC86DF7-F4BB-4837-AC3F-E4BE474B41B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GokerDers", "GokerDers\GokerDers.csproj", "{C4CA1B7A-818A-4F19-B894-518082F54946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GokerDers", "GokerDers\GokerDers.csproj", "{C4CA1B7A-818A-4F19-B894-518082F54946}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deniz", "Deniz", "{B206FE19-030E-4C1A-9107-4309C867DA43}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
