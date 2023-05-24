@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day-1", "Day-1\Day-1.csproj", "{DDFCC5B7-C60A-4074-AEF3-4D537846B603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day-2", "Day-2\Day-2.csproj", "{09A76DDA-9050-409E-87A5-CE953B2B3DBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day-2", "Day-2\Day-2.csproj", "{09A76DDA-9050-409E-87A5-CE953B2B3DBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Göker", "Göker", "{2AC86DF7-F4BB-4837-AC3F-E4BE474B41B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GokerDers", "GokerDers\GokerDers.csproj", "{C4CA1B7A-818A-4F19-B894-518082F54946}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{09A76DDA-9050-409E-87A5-CE953B2B3DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09A76DDA-9050-409E-87A5-CE953B2B3DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09A76DDA-9050-409E-87A5-CE953B2B3DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CA1B7A-818A-4F19-B894-518082F54946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CA1B7A-818A-4F19-B894-518082F54946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CA1B7A-818A-4F19-B894-518082F54946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CA1B7A-818A-4F19-B894-518082F54946}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4CA1B7A-818A-4F19-B894-518082F54946} = {2AC86DF7-F4BB-4837-AC3F-E4BE474B41B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A97C132D-8F4C-4830-BC8B-2A0C07610A2F}
