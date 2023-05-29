@@ -40,4 +40,53 @@ namespace Odev1
             Console.ReadKey();
         }
     }
+
+    internal class Class5
+    {
+        private static void Main(string[] args)
+        {
+           // İki tür dizinin medyanı nasıl bulunur? 
+
+            int[] sayiDizisi = new[] { 1, 5, 2, 8, 3 };
+
+            int dizininUzunlugu = sayiDizisi.Length;
+            
+            Array.Sort(sayiDizisi);
+
+            if ((dizininUzunlugu % 2 == 1))
+            {
+                int tekliSira = (dizininUzunlugu + 1) / 2;
+                Console.WriteLine(sayiDizisi[tekliSira - 1]);
+            }
+         
+            else
+            {
+                double ikiliSira = dizininUzunlugu / 2.0;
+                double ortaSayi = (sayiDizisi[(int)ikiliSira - 1] + sayiDizisi[(int)ikiliSira]) / 2.0;
+                Console.WriteLine(ortaSayi);
+            }
+
+            Console.Read();
+        }
+    }
+
+    internal class Program
+    {
+        private static void Main(string[] args)
+        {
+            int[] numaralar = { 1,2,3,4,5,6,7,8,9,10 };
+
+            int[] tamNumaralar = new int[numaralar.Length + 1];
+
+            for (int i = 0; i < numaralar.Length + 1; i++)
+                tamNumaralar[i] = i + 1;
+
+            IEnumerable<int> eksikSayi = tamNumaralar.Except(numaralar);
+
+            foreach (int sayi in eksikSayi)
+                Console.WriteLine(sayi);
+
+            Console.Read();
+        }
+    }
 }
