@@ -12,6 +12,7 @@ namespace Day_3
     // TSession
     // TKey
     //TValues
+    // TRESULT
 
     //OBJEYİ NEWLEDİĞİMDE YANİ YENİ BİR İNSTANCE OLUŞTURKEN TİP KULLANACGIM.
 
