@@ -88,6 +88,65 @@ public class Program
 
 
 
+        List<string> Listem = new List<string> { "Gökker", "Denniz", "Semihhh", "Yunussz" };
+
+        foreach (var item in Listem)
+        {
+            item.ToLower().GroupBy(x => x).ToList().ForEach(a =>
+            {
+                if (a.Count() > 1)
+                    Console.WriteLine(a.Key + " : " + a.Count());
+            });
+
+
+        }
+
+        Console.WriteLine("");
+
+        List<int> piyangod = new List<int>();
+        List<int> piyangog = new List<int>();
+        List<int> piyangos = new List<int>();
+
+        Random Random = new Random();
+
+        for (int i = 0; i < 10; i++)
+        {
+            piyangod.Add(Random.Next(1, 10));
+            piyangos.Add(Random.Next(1, 10));
+            piyangog.Add(Random.Next(1, 10));
+        }
+
+        piyangod.ForEach(a =>
+        {
+            Console.Write(a);
+        });
+        Console.WriteLine("");
+        piyangos.ForEach(a =>
+        {
+            Console.Write(a);
+        });
+        Console.WriteLine("");
+        piyangog.ForEach(a =>
+        {
+            Console.Write(a);
+        });
+        Console.WriteLine("");
+        //1 - en çok tekrar eden
+
+        piyangod.AddRange(piyangog);
+        piyangod.AddRange(piyangos);
+
+
+        Console.WriteLine(piyangod.GroupBy(x => x).ToList().OrderByDescending(a => a.Count()).First().Key);
+        piyangod.GroupBy(x => x).ToList().OrderByDescending(a => a.Count()).Select(z => z.Key).Take(5).ToList().ForEach(a =>
+        {
+            Console.WriteLine(a);
+        });
+
+        //2 - en çok tekrar eden 5 sayı toplamı
+
+        Console.WriteLine(piyangod.GroupBy(x => x).ToList().OrderByDescending(a => a.Count()).Select(z => z.Key).Take(5).Sum());
+
     }
 }
 
@@ -151,3 +210,7 @@ public class Deneme
 }
 
 // FUNC YAPILANMASI ÖNCEDEN TANIMLANMIŞ DELEGATE 
+
+
+
+
