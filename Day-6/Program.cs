@@ -15,6 +15,7 @@ public class Program
 //        Örnek 1: Girilen 3 basamaklı sayının basamaklarına ayıran örnek(Birler, Onlar, Yüzler Basamağındaki sayılar):
 
 //Örnek 2: Girilen bir sayının asal olduğunu bulan ve bu sayıdan sonraki 5 asal sayıyı ekrana yazan program:
+
 //        Örnek 3: Klavyeden girilen bir cümledeki kelime sayısını bulunuz.
 
 //        Örnek 4: Bir otoparka park eden taksinin 1 saati 5TL, minibüsün 1 saati 6TL, ticari aracın 1 saati 6.5TL dir. Taksi 1 saatten sonraki her saat başı için % 20 daha fazla, minibüs 1 saatten sonraki her saat başı için toplamda % 21.5 ve ticari araç 1 saatten sonraki her saat başı için toplamda % 25 daha fazla ödeme yapmaktadır. Buna göre klavyeden girilen araba tipi ve kalınan saat bilgisi girildikten sonra ekrana ödenecek otopark ücretini hesaplayan programın kodlarını yazınız.
