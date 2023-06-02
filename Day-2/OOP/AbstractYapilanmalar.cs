@@ -24,6 +24,28 @@ namespace Day_2.OOP
 
     }
 
+    public class Sirakko :Araba, IAraba
+    {
+        public Sirakko(DateTime yili) : base(yili)
+        {
+        }
+
+        public void CalKorna(int kornaSuresi)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int Durum()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string Name()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
     public class Auid : Araba, IAraba
     {
         public int _id = 0;
